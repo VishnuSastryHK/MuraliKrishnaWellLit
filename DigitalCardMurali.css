@@ -14,9 +14,10 @@ body
 {
     background-color: #28324B;
 }
+
 #CompanyLogo
 {
-    height: 40%;
+    max-width:50%;
 }
 #Container2
 {
@@ -68,4 +69,25 @@ a:hover
 {
     font-size:24px;
     color:white;
+}
+.contact-info-wrapper {
+    display: flex;
+}
+/*Products Section*/
+.Product_Container
+{
+    border-width: 2px;
+    border-color: #FBDE44;
+    border-style: solid;
+    padding:10px;
+    margin-bottom:10px;
+}
+.Product_Text_Container
+{
+    padding:10px;
+    overflow-wrap: hidden;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
 }
