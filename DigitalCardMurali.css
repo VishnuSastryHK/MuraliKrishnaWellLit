@@ -72,6 +72,8 @@ a:hover
     border-style: solid;
     border-top-width: 5px;
     border-bottom: none;
+    font-size: 20px;
+    overflow-x: visible;
 }
 
 .footer_div > a:hover
@@ -83,6 +85,7 @@ a:hover
 .footer_text
 {
     color:white;
+
 }
 
 i.MainContainerIcons {
@@ -228,6 +231,5 @@ a:hover
 }
 .TextInGallery
 {
-    font-size: 20px;
     margin-left: 30px;
 }
