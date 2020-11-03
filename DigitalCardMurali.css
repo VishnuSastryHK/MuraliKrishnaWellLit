@@ -27,9 +27,11 @@
     text-shadow: 0px 10px 20px rgba(0,0,0,0.25);
     
 }
+
 body
 {
     background-color: var(--color1);
+    overflow-x: hidden;
 }
 button:hover{
     transform: scale(1.03);
@@ -98,14 +100,22 @@ i.MainContainerIcons {
 
   
 }
+
 a
 {
-  color:black;
+  color:var(--color2);
 }
 a:hover
 {
   text-decoration: none;
 }
+
+.aInContact
+{
+    color: black;
+}
+
+
 .fas
 {
     font-size: 24px;
