@@ -32,6 +32,7 @@ body
 {
     background-color: var(--color1);
     overflow-x: hidden;
+    justify-content: center;
 }
 button:hover{
     transform: scale(1.03);
@@ -63,7 +64,7 @@ a:hover
     margin-top:5px;
     bottom:0;
     position:fixed;
-    max-width:100%;
+    max-width:90%;
     color: white;
     background-color: var(--color2);
     padding:10px 5px 0 5px ;
@@ -73,6 +74,8 @@ a:hover
     border-top-width: 5px;
     border-bottom: none;
     font-size: 50vmin;
+    justify-content: center;
+
 }
 .footer_div
 {
