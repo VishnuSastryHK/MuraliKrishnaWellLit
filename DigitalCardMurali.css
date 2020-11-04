@@ -72,20 +72,25 @@ a:hover
     border-style: solid;
     border-top-width: 5px;
     border-bottom: none;
-    font-size: 20px;
-    overflow-x: visible;
+    font-size: 50vmin;
 }
+.footer_div
+{
+    font-size: 50vmin;
+}
+
 
 .footer_div > a:hover
 {
     color: white;
     text-decoration: none;
     transform: scale(1.25);
+    
 }
 .footer_text
 {
     color:white;
-
+    font-size: 3vmin;
 }
 
 i.MainContainerIcons {
@@ -107,6 +112,7 @@ i.MainContainerIcons {
 a
 {
   color:var(--color2);
+  font-size-adjust: 0.58;
 }
 a:hover
 {
