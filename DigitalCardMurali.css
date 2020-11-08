@@ -247,3 +247,133 @@ a:hover
 {
     margin-left: 30px;
 }
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: var(--color1);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.share_button_container
+{
+    border: 0;
+    box-shadow: 0;
+    display: inline-flex;
+    margin:10px;
+    width:65px;
+}
+
+.share-buttons
+{
+    width: 65px;
+    border: 0;
+    box-shadow: 0;
+    margin:5px;
+ }
+
+.link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-radius: 4px;
+        background-color: #eee;
+      }
+      
+      .pen-url {
+        margin-right: 15px;
+      }
+
+      input[type=text], select {
+        width: 30vw;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        color: var(--color2);
+      }
+.copy-link-button
+{
+    border:0;
+    color: var(--color1);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+  }
+.button_in_contact_container {
+    background-color: var(--color2);
+    /*border: var(--color2);
+    border-width: 5px;
+    border-style: solid;*/
+    border: none;
+    color: white;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+    border-radius:10px;
+    width: 32vmax;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    
+  }
+
+  .button_in_contact_container p{
+      font-size:13px;
+  }
+
+  .button_in_contact_container i{
+      font-size: 13px;
+  }
+.divForButtonsInContactContainer
+{
+    border-top-width: 5px;
+    border-top-color: var(--color2);
+    border-top-style: solid;
+   
+    background-color: #FEFEFE;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
