@@ -9,13 +9,25 @@
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
           <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
           
-        
           <link rel="stylesheet" href="DigitalCardMurali.css">
-        
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+          <script>
+            function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+}
+</script>
+
+
           <script>
             
-
             document.onkeydown = function (e) {
                 if (event.keyCode == 123) {
                     return false;
@@ -67,7 +79,10 @@
         <br>
         <h4>Murali Krishna</h4>
         <h6>Director - Technical</h6>
+        <br>
+      <br>
       </div>
+      
 
       <div class="col text-center justify-content-md-center" id="ContactContainer">
           <br>
@@ -112,9 +127,138 @@
             </h6>
             </a>
           </div>
+          <br>
+          <br>
+          
+
           
       </div>   
     </div>
+
+    <div class="row flex text-center justify-content-md-center divForButtonsInContactContainer">
+          <br>
+          <br>
+<!-- Save to phone book -->
+<a href="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/Murali_Krishna.vcf" download="">
+<button  class="button_in_contact_container">
+  <p><i class="fa fa-download"></i>&nbsp&nbspAdd to Phone Book</p>
+</button>
+</a>
+
+
+<!-- Trigger/Open The Modal for Share -->
+<!--script src='https://kit.fontawesome.com/a076d05399.js'></script-->
+<button id="myBtn" class="button_in_contact_container">
+  <p><i class="fa fa-share"></i>&nbsp&nbspShare</p>
+</button>
+</center> 
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+
+    <div >
+     <h4>Share via</h4> 
+    </div>
+
+    <br>
+    <div id="share-buttons">
+    
+      <!--WhatsApp-->
+      <div class="share_button_container">
+      <a href="whatsapp://send?text=https://vishnusastryhk.github.io/MuraliKrishnaWellLit/" data-action="share/whatsapp/share">
+        <img class="share-buttons" src="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/whatsapp.png" alt="WhatsApp" >
+        <p class="text_in_share">Whatsapp</p>
+      </a>
+      </div>
+      
+      <!--Messaging-->
+      <div class="share_button_container">
+      <a target="_blank" href="sms:?body=Check out this: https://vishnusastryhk.github.io/MuraliKrishnaWellLit/">
+        <img class="share-buttons" src="C:\Users\VISHNU SASTRY HK\Desktop\Digital Card\Assets\message.png" alt="WhatsApp" >
+        <p class="text_in_share">Messages</p>
+      </a>
+    </div>
+
+      <!-- Email -->
+      <div class="share_button_container">
+      <a href="mailto:?Subject=Simple Share Buttons&amp;Body=Check%20out%20this%20Digital%20Visiting%20Card%20%0D%0Ahttps://vishnusastryhk.github.io/MuraliKrishnaWellLit/">
+          <img class="share-buttons" src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+          <p class="text_in_share">Email</p>
+        </a>
+      </div>
+   
+      <!-- Facebook -->
+      <div class="share_button_container">
+      <a href="http://www.facebook.com/sharer.php?u=https://vishnusastryhk.github.io/MuraliKrishnaWellLit/" target="_blank">
+          <img class="share-buttons" src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+          <p class="text_in_share">Facebook</p>
+        </a>
+      </div>
+
+      <!-- LinkedIn -->
+      <div class="share_button_container">
+      <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://vishnusastryhk.github.io/MuraliKrishnaWellLit/" target="_blank">
+          <img class="share-buttons" src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+          <p class="text_in_share">LinkedIn</p>
+        </a>
+      </div>
+      
+      
+      <!-- Twitter -->
+      <div class="share_button_container">
+      <a href="https://twitter.com/share?url=https://vishnusastryhk.github.io/MuraliKrishnaWellLit/&amp;text=Check%20out%20this%20Digital%20Visiting%20Card&amp;hashtags=Well-Lit Luminaires" target="_blank">
+          <img class="share-buttons" src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+          <p class="text_in_share">Twitter</p>
+        </a>
+      </div>
+
+      <br>
+      <br>
+      <div class="link">
+        
+        <div class="pen-url"><input type="text" value="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/" id="myInput"></div>
+        <button onclick="myFunction()" class="copy-link-button">Copy Link</button>
+      </div>
+      
+        
+  
+  </div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+          </div>
   </div>
   <br>
 
@@ -391,7 +535,7 @@
     <div class="container Payment_Container">
       <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
         <div class="col text-center justify-content-md-center">
-          <img data-aos="fade-right" class="photos"
+          <img data-toggle="modal" data-target="#myModal" data-aos="fade-right" class="photos"
               src="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/product5.jpg">
          
         </div>
@@ -400,7 +544,7 @@
               src="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/product4.jpg">
           
         </div>
-        <div class="col text-center justify-content-md-center">
+        <div  class="col text-center justify-content-md-center">
           <img data-aos="fade-left"  class="photos"
               src="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/product2.jpg">
           
@@ -627,6 +771,9 @@
 
   
 </div>
+
+
+
 
 <!--Script for AOS animations like zoom-in, fade-up, etc.-->
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
