@@ -620,14 +620,20 @@ $bootstrap-xl: 1200px;
   z-index: -1;
 }
 
-.modal-dialog {
-  display: inline-block;
+.modal-dialog{
+  display: block;
   position:absolute;
-  top:10% !important;
-  margin:auto 10%;
-  height:80%;
+  top:5% !important;
   align-items: center;
+  height:90%;
+  width:97% !important;;
 }
+.modal-content {
+    
+    height: 95% !important;
+    width:97%!important;
+    padding: 0.5px!important;
+  }
 // --- END: custom styling demo --- //
 
 
