@@ -1,12 +1,11 @@
 BEGIN:VCARD
-VERSION:4.0
-PRODID:-//BBros.us llc//bvCard.com//EN
-N:Krishna;Murali;;Mr.;
-FN:Mr. Murali Krishna
-EMAIL:murali.welllit@gmail.com
-ORG:Well-Lit Luminaires LLP
-TEL:9972722009
-URL;type=pref:http://www.welllit.in
-ADR:;100, Krishna Temple Road, Near Krishna Temple, Doddabommasandra;;Bangalore;Karnataka;560097;India
-URL:https://www.facebook.com/well-lit-luminaires
+VERSION:3.0
+FN;CHARSET=UTF-8:Murali Krishna
+N;CHARSET=UTF-8:Krishna;Murali;;;
+EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:murali.welllit@gmail.com
+TEL;TYPE=CELL:9972722009
+ADR;CHARSET=UTF-8;TYPE=WORK:;;Address - 100\, Krishna Temple Road\, Near Krishna Temple\, Doddabommasandra\, Bengaluru 560 097.;;;;
+ORG;CHARSET=UTF-8:Well-lit Luminaires LLP
+URL;type=WORK;CHARSET=UTF-8:http://www.welllit.in
+REV:2020-10-16T06:02:52.766Z
 END:VCARD
