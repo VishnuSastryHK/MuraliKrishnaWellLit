@@ -1,7 +1,8 @@
 BEGIN:VCARD
-VERSION:4.0
+VERSION:3.0
 FN;CHARSET=UTF-8:Murali Krishna
 N;CHARSET=UTF-8:Krishna;Murali;;;
+PHOTO;VALUE=URI;TYPE=JPG:https://vishnusastryhk.github.io/MuraliKrishnaWellLit/photo.jpg
 EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:murali.welllit@gmail.com
 TEL;TYPE=CELL:9972722009
 ADR;CHARSET=UTF-8;TYPE=WORK:;;Address - 100\, Krishna Temple Road\, Near Krishna Temple\, Doddabommasandra\, Bengaluru 560 097.;;;;
