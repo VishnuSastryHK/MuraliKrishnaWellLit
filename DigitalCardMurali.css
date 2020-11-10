@@ -634,3 +634,13 @@ $bootstrap-xl: 1200px;
     height: 85% !important;
     width:95%!important;
   }
+
+ .modal-full {
+    top:5%!important;
+    min-width: 100%;
+    margin: 0;
+}
+
+.modal-full .modal-content {
+    min-height: 80vh;
+}
