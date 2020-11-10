@@ -388,18 +388,18 @@ a:hover
 
 
 
-// None of this CSS is required for the gallery and lightbox to function.
+/* None of this CSS is required for the gallery and lightbox to function.*/
 
-// --- BEGIN: crop images --- //
-// Optional CSS for cropping images that aren't all the same size.
+/* --- BEGIN: crop images --- */
+/* Optional CSS for cropping images that aren't all the same size.*/
 
-// Use Bootstrap breakpoints for consistency.
+/* Use Bootstrap breakpoints for consistency.*/
 $bootstrap-sm: 576px;
 $bootstrap-md: 768px;
 $bootstrap-lg: 992px;
 $bootstrap-xl: 1200px;
 
-// Crop thumbnail images.
+/* Crop thumbnail images.*/
 #gallery {
   
   img {
@@ -417,7 +417,7 @@ $bootstrap-xl: 1200px;
 }
 
 
-// Crop images in lightbox.
+/* Crop images in lightbox.*/
 .carousel-item {
   
   img {
@@ -430,14 +430,14 @@ $bootstrap-xl: 1200px;
   }
 }
 
-// --- END: crop images --- //
+/* --- END: crop images --- */
 
 
-// --- BEGIN: custom styling demo --- //
-// An example of custom styling for gallery and lightbox, to show what's possible in terms of aesthetic customization.
+/* --- BEGIN: custom styling demo --- */
+/* An example of custom styling for gallery and lightbox, to show what's possible in terms of aesthetic customization.*/
 
 * {
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 #gallery.custom {
@@ -620,22 +620,17 @@ $bootstrap-xl: 1200px;
   z-index: -1;
 }
 
+
+
 .modal-dialog{
-  display: block;
+  display: inline-block;
   position:absolute;
   top:5% !important;
   align-items: center;
-  height:90%;
-  width:97% !important;;
+  width:100% !important;;
 }
 .modal-content {
     
-    height: 95% !important;
-    width:97%!important;
-    padding: 0.5px!important;
+    height: 85% !important;
+    width:95%!important;
   }
-// --- END: custom styling demo --- //
-
-
-
-// --- END: style switch --- //
