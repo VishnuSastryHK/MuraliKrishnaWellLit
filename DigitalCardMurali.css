@@ -625,7 +625,7 @@ $bootstrap-xl: 1200px;
 .modal-dialog{
   display: inline-block;
   position:absolute;
-  top:5% !important;
+  top:10% !important;
   align-items: center;
   width:100% !important;;
 }
@@ -636,7 +636,7 @@ $bootstrap-xl: 1200px;
   }
 
  .modal-full {
-    top:5%!important;
+    top:10%!important;
     min-width: 100%;
     margin: 0;
 }
